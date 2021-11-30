@@ -1,1 +1,7 @@
-
+// Problem 2
+gen eligible = 0
+replace eligible = 1 if birthyr == 1958 & draftnumber >= 175
+replace eligible = 1 if birthyr == 1959 & draftnumber >= 320
+replace eligible = 1 if birthyr == 1960 & draftnumber >= 341
+replace eligible = 1 if birthyr == 1961 & draftnumber >= 350
+replace eligible = 1 if birthyr == 1962 & draftnumber >= 320
